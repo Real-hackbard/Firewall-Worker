@@ -27,7 +27,14 @@ Firewalls are categorized as a network-based or a host-based system. Network-bas
 | :-------------------------- | :----------- |
 | Physical/Layer 3 Interfaces |Standard Ethernet ports assigned IP addresses for routing traffic (e.g., WAN, LAN). |
 | Virtual Wire (VWire) | Acts like a simple cable (Layer 2) for inline inspection without IP, preventing direct communication between networks. |
-
+| TAP (Test Access Point) | A passive, out-of-band interface that mirrors traffic for inspection without impacting network flow, as seen in Palo Alto firewalls. |
+| Layer 2 Interfaces | Operates at Layer 2 (Ethernet), bridging traffic like a switch, often used for transparent deployments. |
+| VLAN Interfaces/Sub-interfaces | Logically segments a single physical port into multiple virtual networks (802.1Q), enabling traffic separation. |
+| Zelle 2,1     | Zelle 2,2     |
+| Zelle 1,1     | Zelle 1,2     |
+| Zelle 2,1     | Zelle 2,2     |
+| Zelle 1,1     | Zelle 1,2     |
+| Zelle 2,1     | Zelle 2,2     |
 
 
 
