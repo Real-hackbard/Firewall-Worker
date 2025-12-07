@@ -36,7 +36,10 @@ Firewalls are categorized as a network-based or a host-based system. Network-bas
 | HA (High Availability) | Dedicated interfaces for cluster communication between primary and secondary firewalls. |
 | Software/Hardware Switches | Virtual switches (CPU-based) or hardware-accelerated switches for managing internal traffic and VLANs.  |
 
+</br>
 
+# Packet Filter:
+The first reported type of network firewall is called a [packet filter](https://en.wikipedia.org/wiki/PF_(firewall)) which inspects packets transferred between computers. The firewall maintains an [access-control](https://en.wikipedia.org/wiki/Access-control_list) list which dictates what packets will be looked at and what action should be applied, if any, with the default action set to silent discard. Three basic actions regarding the packet consist of a silent discard, discard with [Internet Control Message Protocol](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) or TCP reset response to the sender, and forward to the next hop. Packets may be filtered by source and destination IP addresses, protocol, or source and destination ports. The bulk of Internet communication in 20th and early 21st century used either Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) in conjunction with [well-known ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers), enabling firewalls of that era to distinguish between specific types of traffic such as web browsing, remote printing, email transmission, and file transfers.
 
 
 
