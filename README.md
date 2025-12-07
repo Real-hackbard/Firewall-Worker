@@ -30,11 +30,11 @@ Firewalls are categorized as a network-based or a host-based system. Network-bas
 | TAP (Test Access Point) | A passive, out-of-band interface that mirrors traffic for inspection without impacting network flow, as seen in Palo Alto firewalls. |
 | Layer 2 Interfaces | Operates at Layer 2 (Ethernet), bridging traffic like a switch, often used for transparent deployments. |
 | VLAN Interfaces/Sub-interfaces | Logically segments a single physical port into multiple virtual networks (802.1Q), enabling traffic separation. |
-| Zelle 2,1     | Zelle 2,2     |
-| Zelle 1,1     | Zelle 1,2     |
-| Zelle 2,1     | Zelle 2,2     |
-| Zelle 1,1     | Zelle 1,2     |
-| Zelle 2,1     | Zelle 2,2     |
+| Aggregate Ethernet (LAG) | Combines multiple physical links into one logical link for increased bandwidth and redundancy. |
+| Tunnel Interfaces | Used for VPNs (IPsec, GRE) to create secure, encrypted connections between sites or for remote users. |
+| Loopback | A virtual interface that's always "up," used for management, routing protocols (OSPF), and internal stability. |
+| HA (High Availability) | Dedicated interfaces for cluster communication between primary and secondary firewalls. |
+| Software/Hardware Switches | Virtual switches (CPU-based) or hardware-accelerated switches for managing internal traffic and VLANs.  |
 
 
 
