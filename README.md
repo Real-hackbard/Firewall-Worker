@@ -12,8 +12,11 @@
 
 In computing, a firewall is a [network security](https://en.wikipedia.org/wiki/Network_security) system that [monitors](https://en.wikipedia.org/wiki/Network_monitoring) and controls incoming and outgoing [network traffic](https://en.wikipedia.org/wiki/Network_traffic) based on configurable security rules. A firewall typically establishes a barrier between a trusted network and an untrusted network, such as the Internet or between several [VLANs](https://en.wikipedia.org/wiki/VLAN). Firewalls can be categorized as network-based or host-based.
 
+</br>
 
+![FirewallWorker](https://github.com/user-attachments/assets/3c1f9a97-4d9d-4a27-b21e-4908402050b3)
 
+</br>
 
 
 
