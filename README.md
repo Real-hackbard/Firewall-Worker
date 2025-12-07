@@ -41,10 +41,13 @@ Firewalls are categorized as a network-based or a host-based system. Network-bas
 # Packet Filter:
 The first reported type of network firewall is called a [packet filter](https://en.wikipedia.org/wiki/PF_(firewall)) which inspects packets transferred between computers. The firewall maintains an [access-control](https://en.wikipedia.org/wiki/Access-control_list) list which dictates what packets will be looked at and what action should be applied, if any, with the default action set to silent discard. Three basic actions regarding the packet consist of a silent discard, discard with [Internet Control Message Protocol](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) or TCP reset response to the sender, and forward to the next hop. Packets may be filtered by source and destination IP addresses, protocol, or source and destination ports. The bulk of Internet communication in 20th and early 21st century used either Transmission Control Protocol (TCP) or User Datagram Protocol (UDP) in conjunction with [well-known ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers), enabling firewalls of that era to distinguish between specific types of traffic such as web browsing, remote printing, email transmission, and file transfers.
 
+</br>
 
+<img width="250" height="137" alt="Firewall" src="https://github.com/user-attachments/assets/28312bdb-1d7b-4cf4-83d3-ad8874bc534c" />
 
+</br>
 
-
+The first paper published on firewall technology was in 1987 when engineers from [Digital Equipment Corporation](https://en.wikipedia.org/wiki/Digital_Equipment_Corporation) (DEC) developed filter systems known as packet filter firewalls. At AT&T Bell Labs, Bill Cheswick and Steve Bellovin continued their research in packet filtering and developed a working model for their own company based on their original first-generation architecture.
 
 
 
