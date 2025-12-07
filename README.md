@@ -47,6 +47,7 @@ The first reported type of network firewall is called a [packet filter](https://
 
 </br>
 
+
 The first paper published on firewall technology was in 1987 when engineers from [Digital Equipment Corporation](https://en.wikipedia.org/wiki/Digital_Equipment_Corporation) (DEC) developed filter systems known as packet filter firewalls. At AT&T Bell Labs, Bill Cheswick and Steve Bellovin continued their research in packet filtering and developed a working model for their own company based on their original first-generation architecture.
 
 
