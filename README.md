@@ -23,7 +23,7 @@ Firewalls are categorized as a network-based or a host-based system. Network-bas
 
 </br>
 
-| Interfacetypes              | Description  |
+| Interface Types:              | Description;  |
 | :-------------------------- | :----------- |
 | Physical/Layer 3 Interfaces |Standard Ethernet ports assigned IP addresses for routing traffic (e.g., WAN, LAN). |
 | Virtual Wire (VWire) | Acts like a simple cable (Layer 2) for inline inspection without IP, preventing direct communication between networks. |
