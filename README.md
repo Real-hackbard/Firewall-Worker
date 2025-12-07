@@ -18,7 +18,7 @@ In computing, a firewall is a [network security](https://en.wikipedia.org/wiki/N
 * Scan Rule list (In-, Outbound)
 * Delete Rule seperate (In-, Outbound)
 * Create Rule
-  * Inbound, Outbound, Application, ICMP, Protocol, LAN, Serice, EdgeTraversal, Interface
+  * Inbound, Outbound, Application, ICMP, Protocol, LAN, Service, EdgeTraversal, Interface
 
 </br>
 
