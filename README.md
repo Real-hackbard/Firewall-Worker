@@ -18,6 +18,21 @@ In computing, a firewall is a [network security](https://en.wikipedia.org/wiki/N
 
 </br>
 
+# Types of firewalls:
+Firewalls are categorized as a network-based or a host-based system. Network-based firewalls are positioned between two or more networks, typically between the [local area network](https://en.wikipedia.org/wiki/Local_area_network) (LAN) and [wide area network](https://en.wikipedia.org/wiki/Wide_area_network) (WAN), their basic function being to control the flow of data between connected networks. They are either a software appliance running on general-purpose hardware, a hardware appliance running on special-purpose hardware, or a [virtual appliance](https://en.wikipedia.org/wiki/Virtual_appliance) running on a virtual host controlled by a hypervisor. Firewall appliances may also offer non-firewall functionality, such as [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) or [VPN](https://en.wikipedia.org/wiki/Virtual_private_network) services. Host-based firewalls are deployed directly on the host itself to control network traffic or other computing resources. This can be a [daemon](https://en.wikipedia.org/wiki/Daemon_(computing)) or service as a part of the operating system or an agent application for protection.
+
+</br>
+
+| Interfacetypes              | Description  |
+| :-------------------------- | :----------- |
+| Physical/Layer 3 Interfaces |Standard Ethernet ports assigned IP addresses for routing traffic (e.g., WAN, LAN). |
+| Virtual Wire (VWire) | Acts like a simple cable (Layer 2) for inline inspection without IP, preventing direct communication between networks. |
+
+
+
+
+
+
 
 
 
