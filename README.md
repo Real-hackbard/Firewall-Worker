@@ -14,6 +14,14 @@ In computing, a firewall is a [network security](https://en.wikipedia.org/wiki/N
 
 </br>
 
+### Features:
+* Scan Rule list (In-, Outbound)
+* Delete Rule seperate (In-, Outbound)
+* Create Rule
+  * Inbound, Outbound, Application, ICMP, Protocol, LAN, Serice, EdgeTraversal, Interface
+
+</br>
+
 ![FirewallWorker](https://github.com/user-attachments/assets/3c1f9a97-4d9d-4a27-b21e-4908402050b3)
 
 </br>
